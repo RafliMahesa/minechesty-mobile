@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:minechesty/menu.dart';
+import 'package:minechesty/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
