@@ -444,7 +444,7 @@ Pembagiannya sebagai berikut: <br>
 ## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step! (bukan hanya sekadar mengikuti tutorial)
 
 - [x] Membuat minimal satu halaman baru pada aplikasi, yaitu halaman formulir tambah item baru dengan ketentuan sebagai berikut: <br>
-  + Pada folder `lib` buatlah file dengan nama `utemlist_form.dart`.
+  + Pada folder `lib` buatlah file dengan nama `itemlist_form.dart`.
   - [x] Memakai minimal tiga elemen input, yaitu name, amount, description. Tambahkan elemen input sesuai dengan model pada aplikasi tugas Django yang telah kamu buat. <br>
     + Pada file tersebut tambahkan kode dibawah ini
     ```
