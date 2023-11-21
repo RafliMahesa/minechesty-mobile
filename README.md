@@ -848,7 +848,7 @@ Pembagiannya sebagai berikut: <br>
 # Tugas 9
 
 ## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
-
+Ya, kita dapat melakukan pengambilan data JSON tanpa membuat model terlebih dahulu. Jika kita hanya mengambil data dari sebuah file JSON atau API dan tidak perlu melakukan manipulasi atau analisis yang kompleks, kita tidak perlu membuat model khusus. Lebih baik atau tidaknya itu tergantung dari kebutuhan kita, jika kita hanya butuh untuk mengambil dan menganalisis data JSON secara sederhana, maka tidak perlu membuat model terlebih dahulu. Namun, jika kita ingin melakukan tugas seperti klasifikasi atau prediksi berdasarkan data JSON, maka kita mungkin perlu membuat model terlebih dahulu. Jika struktur kita kompleks, maka membangun model merupakan keputusan yang lebih baik dikarenakan model membantu kita dalam mengatasi kompleksitas struktur data, dan mengekstrak informasi. <br>
 
 ## Jelaskan fungsi dari CookieRequest dan jelaskan mengapa instance CookieRequest perlu untuk dibagikan ke semua komponen di aplikasi Flutter.
 
