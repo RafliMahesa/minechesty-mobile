@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:minechesty/screens/itemlist.dart';
 import 'package:minechesty/screens/itemlist_form.dart';
+import 'package:minechesty/screens/list_item.dart';
 import 'package:minechesty/screens/menu.dart';
 
 
@@ -63,17 +63,16 @@ class LeftDrawer extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: const Icon(Icons.checklist),
-            title: const Text('Lihat Item'),
-            // Bagian redirection ke ItemFormPage
+            leading: const Icon(Icons.shopping_basket),
+            title: const Text('Daftar Item'),
             onTap: () {
-              Navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const ItemListPage(),
-                  ));
+                // Route menu ke halaman produk
+                Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ProductPage()),
+                );
             },
-          ),
+        ),
         ],
       ),
     );
