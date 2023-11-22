@@ -148,7 +148,7 @@ class _InventoryFormPageState extends State<InventoryFormPage> {
                             if (_formKey.currentState!.validate()) {
                                 // Kirim ke Django dan tunggu respons
                                 final response = await request.postJson(
-                                "https://muhammad-rafli22-tugas.pbp.cs.ui.ac.id/create-flutter/",
+                                "http://127.0.0.1:8000/create-flutter/",
                                 jsonEncode(<String, String>{
                                     'name': _name,
                                     'amount': _amount.toString(),

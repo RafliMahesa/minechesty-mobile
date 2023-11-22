@@ -1341,7 +1341,7 @@ Pembagian instance CookieRequest secara global memastikan keseragaman dan kemuda
     ```
 - [x] Membuat halaman detail untuk setiap item yang terdapat pada halaman daftar Item. <br>
   - [x] Halaman ini dapat diakses dengan menekan salah satu item pada halaman daftar Item. <br>
-    + Pada berkas `list_item.html` tambahkan kode berikut untuk membuat button ke setiap detail item:
+    + Pada berkas `list_item.dart` tambahkan kode berikut untuk membuat button ke setiap detail item:
     ```
           ElevatedButton(
         onPressed: () {

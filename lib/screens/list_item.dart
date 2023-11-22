@@ -16,7 +16,7 @@ class ProductPage extends StatefulWidget {
 class _ProductPageState extends State<ProductPage> {
   Future<List<Item>> fetchProduct(CookieRequest request) async {
   final response = await request.postJson(
-                                "https://muhammad-rafli22-tugas.pbp.cs.ui.ac.id/get-item/",
+                                "http://127.0.0.1:8000/get-item/",
                                 jsonEncode(<String, String>{
                                     'name':'bait',
                                 }));
